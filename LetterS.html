@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+    <div>
+		<div class="top"></div>
+		<div class="vertical-left"></div>
+		<div class="middle"></div>
+		<div class="vertical-right"></div>
+		<div class="bottom"></div>
+		<div class="top-blue"></div>
+		<div class="bottom-blue"></div>
+
+		<style>
+			body {
+				margin: 0px;
+				padding: 0px;
+				background: #4f77ff;
+			}
+			.top {
+				position: relative;
+				background: #ffffff;
+				width: 240px;
+				height: 50px;
+				border-radius: 10px;
+				left: 80px;
+				top: 70px;
+			}
+			.vertical-left {
+				background: #ffffff;
+				height: 50px;
+				width: 20px;
+				position: absolute;
+				left: 80px;
+				top: 100px;
+			}
+			.middle {
+				background: #ffffff;
+				width: 240px;
+				height: 20px;
+				position: relative;
+				left: 80px;
+				top: 90px;
+				border-radius: 10px;
+			}
+			.vertical-right {
+				background: #ffffff;
+				height: 50px;
+				width: 20px;
+				position: absolute;
+				left: 300px;
+				top: 140px;
+				border-radius: 0 10px 0 0;
+			}
+			.bottom {
+				background: #ffffff;
+				width: 240px;
+				height: 50px;
+				position: relative;
+				left: 80px;
+				top: 110px;
+				border-radius: 10px;
+			}
+			.top-blue {
+				background: #1038bf;
+				width: 240px;
+				height: 50px;
+				position: relative;
+				left: 100px;
+				top: -70px;
+				border-radius: 10px;
+				z-index: -1;
+			}
+			.bottom-blue {
+				background: #1038bf;
+				width: 240px;
+				height: 50px;
+				position: relative;
+				left: 60px;
+				top: 30px;
+				border-radius: 10px;
+				z-index: -1;
+			}
+		</style>
+	</body>
+</html>
